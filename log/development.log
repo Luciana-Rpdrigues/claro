@@ -90,3 +90,990 @@ Completed 200 OK in 59ms (Views: 57.4ms)
   [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-22 15:36:42.938553"], ["updated_at", "2020-05-22 15:36:42.938553"]]
   [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-05-26 10:02:23 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 239ms (Views: 117.6ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 10:02:24 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 29ms (Views: 27.5ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 10:02:26 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 56ms (Views: 52.8ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 10:02:28 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 52ms (Views: 49.8ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 10:02:29 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 66ms (Views: 63.9ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 10:02:29 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 52ms (Views: 49.9ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 10:02:30 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 49ms (Views: 46.5ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 10:02:31 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 50ms (Views: 46.9ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 10:02:31 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 50ms (Views: 47.8ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 10:02:55 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (241.9ms)
+Completed 500 Internal Server Error in 249ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_accounts' for #<#<Class:0x00007f0844022328>:0x00007f084423ff98>
+Did you mean?  new_account_url):
+    1: <h2>Listando Contas</h2>
+    2: 
+    3: <ul>
+    4: 	<%= link_to "Nova Conta", new_accounts %>
+    5: </ul>
+  
+app/views/accounts/index.html.erb:4:in `_app_views_accounts_index_html_erb___3528254001700756455_69836739814400'
+Started GET "/accounts" for ::1 at 2020-05-26 10:03:08 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (217.8ms)
+Completed 500 Internal Server Error in 225ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `new_accounts_path' for #<#<Class:0x00007f0844022328>:0x00007f084801d6d0>
+Did you mean?  new_account_path
+               new_account_url):
+    1: <h2>Listando Contas</h2>
+    2: 
+    3: <ul>
+    4: 	<%= link_to "Nova Conta", new_accounts_path %>
+    5: </ul>
+  
+app/views/accounts/index.html.erb:4:in `_app_views_accounts_index_html_erb___3528254001700756455_69836772274040'
+Started GET "/accounts" for ::1 at 2020-05-26 10:03:17 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 19.3ms)
+
+
+Started GET "/" for ::1 at 2020-05-26 10:19:33 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 236ms (Views: 106.4ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 10:19:34 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 51ms (Views: 48.3ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 10:19:35 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 47ms (Views: 45.2ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 10:20:07 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 38ms (Views: 35.4ms)
+
+
+Started GET "/" for ::1 at 2020-05-26 10:24:28 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 245ms (Views: 164.2ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 10:24:30 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 64ms (Views: 57.9ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 10:24:31 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 55ms (Views: 52.1ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 10:24:34 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 50ms (Views: 46.9ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 10:24:35 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 51ms (Views: 48.6ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 10:24:36 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 51ms (Views: 49.6ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateAccounts (20200526135125)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE TABLE "accounts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "number" varchar, "name" varchar, "cost_center" varchar, "work_front" varchar, "phone_number" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200526135125"]]
+  [1m[35m (5.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateAccounts (20200526135125)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[35mCREATE TABLE "accounts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "number" varchar, "name" varchar, "cost_center" varchar, "work_front" varchar, "phone_number" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200526135125"]]
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-26 13:57:07.070810"], ["updated_at", "2020-05-26 13:57:07.070810"]]
+  [1m[35m (5.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-05-26 11:03:06 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 97ms (Views: 93.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 11:03:08 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 37ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:03:09 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (836.1ms)
+Completed 200 OK in 893ms (Views: 847.1ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:03:51 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 27ms (Views: 24.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-26 11:32:51 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 119ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 11:32:53 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 63ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:32:54 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (890.2ms)
+Completed 200 OK in 948ms (Views: 901.6ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-26 11:34:13 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 12ms (Views: 10.8ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 11:34:15 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 48ms (Views: 45.2ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:34:16 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (800.8ms)
+Completed 200 OK in 843ms (Views: 810.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:34:33 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (740.5ms)
+Completed 200 OK in 800ms (Views: 751.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:34:35 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 54ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:34:36 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:34:36 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 51ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:35:17 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (762.9ms)
+Completed 200 OK in 776ms (Views: 770.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:35:20 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 12ms (Views: 11.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-26 11:37:06 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 31ms (Views: 29.3ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 11:37:08 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 80ms (Views: 75.5ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:37:09 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (698.7ms)
+Completed 200 OK in 750ms (Views: 706.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:38:02 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (767.3ms)
+Completed 200 OK in 807ms (Views: 775.9ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:38:04 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 25ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:38:05 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 55ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:38:05 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 73ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:38:55 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (738.2ms)
+Completed 200 OK in 773ms (Views: 749.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:38:56 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 23ms (Views: 21.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:40:05 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (770.2ms)
+Completed 200 OK in 807ms (Views: 779.3ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:40:08 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:40:17 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (758.6ms)
+Completed 200 OK in 932ms (Views: 923.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:40:45 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (750.0ms)
+Completed 200 OK in 768ms (Views: 758.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:40:58 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 54ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:40:59 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 54ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:40:59 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 55ms (Views: 51.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:41:00 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 51ms (Views: 48.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:41:00 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 57ms (Views: 53.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:42:52 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 53ms (Views: 49.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:42:54 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 29ms (Views: 26.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:42:56 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-26 11:42:59 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 50ms (Views: 47.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 11:43:00 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 49ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:43:01 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 48ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:43:27 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `Number' for #<Account:0x00007f3ed0dd3338>
+Did you mean?  number?
+               number=):
+    2: 
+    3: <%= form_for @account do |f| %>
+    4: 	<%= f.label :Number %>
+    5: 	<%= f.text_field :Number %>
+    6: 
+    7: </br>
+    8: <button type="submit" class="btn btn-primary">Nova Conta</button>
+  
+app/views/accounts/new.html.erb:5:in `block in _app_views_accounts_new_html_erb___1374758271214440435_69953884425540'
+app/views/accounts/new.html.erb:3:in `_app_views_accounts_new_html_erb___1374758271214440435_69953884425540'
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:43:42 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 31ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:44:19 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (788.3ms)
+Completed 200 OK in 835ms (Views: 798.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-26 11:46:55 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 111ms (Views: 107.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 11:46:56 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 48ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:46:57 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (851.4ms)
+Completed 200 OK in 906ms (Views: 862.4ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:47:06 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 45ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:47:18 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (735.2ms)
+Completed 200 OK in 754ms (Views: 743.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:47:48 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (741.1ms)
+Completed 500 Internal Server Error in 751ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `Number' for #<Account:0x00007fc464e1d7c0>
+Did you mean?  number?
+               number=):
+    2: 
+    3: <%= form_for @account do |f| %>
+    4: 	<%= f.label :Number %>
+    5: 	<%= f.text_field :Number %>
+    6: 
+    7: </br>
+    8: <button type="submit" class="btn btn-primary">Nova Conta</button>
+  
+app/views/accounts/new.html.erb:5:in `block in _app_views_accounts_new_html_erb___2923343494091046966_70240746700740'
+app/views/accounts/new.html.erb:3:in `_app_views_accounts_new_html_erb___2923343494091046966_70240746700740'
+Started GET "/accounts/new" for ::1 at 2020-05-26 11:48:18 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 26ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (5.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateAccounts (20200526135125)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  [1m[35mCREATE TABLE "accounts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "number" varchar, "name" varchar, "cost_center" varchar, "work_front" varchar, "phone" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200526135125"]]
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-26 14:55:38.021172"], ["updated_at", "2020-05-26 14:55:38.021172"]]
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for ::1 at 2020-05-26 13:03:44 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 110ms (Views: 107.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 13:03:46 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 46ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 13:03:48 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (759.8ms)
+Completed 200 OK in 815ms (Views: 778.4ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/" for ::1 at 2020-05-26 13:10:43 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 97ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 13:10:45 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 13:10:47 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (809.3ms)
+Completed 200 OK in 839ms (Views: 817.1ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 13:11:32 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 26ms (Views: 24.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 13:14:53 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.2ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/luciana/claro/app/views/accounts/new.html.erb:5: syntax error, unexpected ':'
+...utput_buffer.append=( f.label : );@output_buffer.safe_append...
+...                              ^
+/home/luciana/claro/app/views/accounts/new.html.erb:21: syntax error, unexpected end, expecting ')'
+'.freeze;	 end 
+         	 ^~~
+/home/luciana/claro/app/views/accounts/new.html.erb:28: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/luciana/claro/app/views/accounts/new.html.erb:30: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/accounts/new.html.erb:5: syntax error, unexpected ':'
+app/views/accounts/new.html.erb:21: syntax error, unexpected end, expecting ')'
+app/views/accounts/new.html.erb:28: syntax error, unexpected ensure, expecting ')'
+app/views/accounts/new.html.erb:30: syntax error, unexpected end, expecting ')'
+Started GET "/accounts/new" for ::1 at 2020-05-26 13:15:07 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 13:16:35 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 62ms (Views: 57.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 13:17:10 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 85ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 13:18:58 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 34ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 13:19:22 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 35ms (Views: 31.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 13:19:29 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 47ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 13:19:49 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-26 14:56:33 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 106ms (Views: 102.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 14:56:35 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 40ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 14:56:36 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 99ms (Views: 45.5ms | ActiveRecord: 3.4ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 14:57:01 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 26ms (Views: 12.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 14:57:25 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 66ms (Views: 42.3ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 14:57:27 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 74ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 14:57:39 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 47ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 14:57:47 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 58ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 14:58:12 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 58ms (Views: 36.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 14:58:15 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 35ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 14:59:53 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 33ms (Views: 19.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 14:59:55 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-26 15:06:43 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 129ms (Views: 126.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 15:06:46 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 22ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:06:47 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 73ms (Views: 26.4ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:08:57 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:08:59 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 22ms (Views: 20.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:00 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 23ms (Views: 21.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:01 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 99ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:02 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:02 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 55ms (Views: 52.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:03 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 52ms (Views: 49.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:03 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 49ms (Views: 46.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:03 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 88ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:04 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 72ms (Views: 69.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:04 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 72ms (Views: 69.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:04 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 50ms (Views: 46.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:04 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 83ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:05 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 120ms (Views: 117.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:05 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 52ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:05 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 53ms (Views: 50.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:05 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 18ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:09:06 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 52ms (Views: 48.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-26 15:11:45 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 14.7ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-26 15:11:47 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 52ms (Views: 49.9ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-26 15:11:48 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (785.0ms)
+Completed 200 OK in 833ms (Views: 796.4ms | ActiveRecord: 3.0ms)
+
+

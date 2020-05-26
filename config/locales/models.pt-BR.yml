@@ -1,0 +1,23 @@
+'pt-BR':
+  activerecord:
+    models:
+      account:
+        one: Conta
+        other: Contas
+      
+    attributes:
+      account:
+        number: 'Número'
+        id: Código
+        account_number: Número
+        name: Nome
+        phone: Telefone 
+        cost_center: Centro de Custo
+        work_front: Frente de Trabalho
+        Name: Nome do colaborador
+        created_at: Criado em
+        updated_at: Atualizado em
+        Submit: 'Nova Conta'
+
+
+ 

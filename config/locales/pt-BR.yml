@@ -1,0 +1,27 @@
+pt-BR:
+  hello: 'Olá mundo!'
+
+  activerecord:
+    attributes:
+      account:
+        number: 'Número'
+        id: 'Código'
+        account_number: 'Número'
+        name: 'Nome'
+        phone: 'Telefone'
+        cost_center: 'Centro de Custo'
+        work_front: 'Frente de Trabalho'
+        Name: 'Nome do colaborador'
+        created_at: 'Criado em'
+        updated_at: 'Atualizado em'
+        Submit: 'Nova Conta'
+
+    errors:
+      messages:
+        blank: 'não pode ser em branco'
+        invalid: 'inválido'
+        taken: 'já cadastrado'
+        confirmation: 'não é igual. Insira a mesma Senha'
+        too_long: 'muito grande. Máximo de %{count} caracteres'  
+        too_short: 'muito curta. Mínimo de %{count} caracteres'  
+        blank: "Please fill the %{model}'s %{attribute}"
