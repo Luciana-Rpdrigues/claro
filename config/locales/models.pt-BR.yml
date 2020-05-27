@@ -12,7 +12,7 @@
         account_number: Número
         name: Nome
         phone: Telefone 
-        cost_center: Centro de Custo
+        cost_center: 'Centro de Custo'
         work_front: Frente de Trabalho
         Name: Nome do colaborador
         created_at: Criado em

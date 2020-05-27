@@ -23,15 +23,15 @@ feature "Account", type: :feature do
 	scenario 'Cadastra uma Conta Válida' do
 		visit(new_account_path)
 		account_number = Faker::Number.number
-
-		fill_in('account_number', winth: 'account_number')
-    	fill_in('account_Name', winth: Faker::Name.name)
-    	fill_in('account_CostCenter', winth: Faker::CostCenter.cost_center)
-    	fill_in('account_WorkFront', winth: Faker::WorkFront.work_front)
-    	fill_in('account_phone', winth: Faker::PhoneNumber.phone_number)
+		
+		fill_in('account_number', with: 'account_number')
+    	fill_in('account_name', with: Faker::Name.name)
+    	fill_in('account_cost_center', with: Faker::CostCenter.cost_center)
+    	fill_in('account_work_front', with: Faker::Work_Front.work_front)
+    	fill_in('account_phone', with: Faker::PhoneNumber.phone_number)
     	click_on('Criar Conta')
 
-    	expect(page).to have_content('Conta cadastrada com sucesso')
+    	expect(page).to have_content('Conta cadastrada com sucesso!')
     	expect(Account.last.number).to eq(account_number)
 	end
 end
