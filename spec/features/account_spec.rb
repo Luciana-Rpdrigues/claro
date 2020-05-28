@@ -16,8 +16,8 @@ feature "Account", type: :feature do
 
 	scenario 'Verifica Formulário de Nova Conta' do
 		visit(new_account_path)
-		click_on('Nova Conta')
-		expect(page).to have_content('Nova Conta')
+		click_on('Criar Conta')
+		expect(page).to have_content('Criar Conta')
 	end
 
 	scenario 'Cadastra uma Conta Válida' do
@@ -26,9 +26,9 @@ feature "Account", type: :feature do
 		
 		fill_in('account_number', with: 'account_number')
     	fill_in('account_name', with: Faker::Name.name)
-    	fill_in('account_cost_center', with: Faker::CostCenter.cost_center)
-    	fill_in('account_work_front', with: Faker::Work_Front.work_front)
-    	fill_in('account_phone', with: Faker::PhoneNumber.phone_number)
+    	#fill_in('account_cost_center', with: Faker::CostCenter.cost_center)
+    	#fill_in('account_work_front', with: Faker::Work_Front.work_front)
+    	#fill_in('account_phone', with: Faker::PhoneNumber.phone)
     	click_on('Criar Conta')
 
     	expect(page).to have_content('Conta cadastrada com sucesso!')

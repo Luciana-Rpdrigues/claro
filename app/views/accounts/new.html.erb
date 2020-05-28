@@ -1,23 +1,21 @@
-<div class="row">
-	<h2> Nova Conta </h2>
+<h2> Nova Conta </h2>
 
-	<%= form_for @account do |f| %>
-		<%= f.label :number %>
-		<%= f.text_field :number %> </br>
-		</br>
-		<%= f.label :name %>
-		<%= f.text_field :name %></br>
-		</br>
-		<%= f.label :cost_center %>
-		<%= f.text_field :cost_center %></br>
-		</br>
-		<%= f.label :work_front %>
-		<%= f.text_field :work_front %></br>
-		</br>
-		<%= f.label :phone %>
-		<%= f.text_field :phone%></br>
-	<% end %>
-</div>
+<%= form_for @account do |f| %>
+	<%= f.label :number %>
+	<%= f.text_field :number %> </br>
+	</br>
+	<%= f.label :name %>
+	<%= f.text_field :name %></br>
+	</br>
+	<%= f.label :cost_center %>
+	<%= f.text_field :cost_center %></br>
+	</br>
+	<%= f.label :work_front %>
+	<%= f.text_field :work_front %></br>
+	</br>
+	<%= f.label :phone %>
+	<%= f.text_field :phone%></br>
+	</br>
+	<%= f.submit 'Criar Conta' %>
+<% end %>
 
-</br>
-<button type="submit" class="btn btn-primary">Nova Conta</button>

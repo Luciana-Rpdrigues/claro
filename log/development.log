@@ -1230,3 +1230,510 @@ Processing by AccountsController#new as HTML
 Completed 200 OK in 40ms (Views: 20.8ms | ActiveRecord: 2.2ms)
 
 
+Started GET "/" for ::1 at 2020-05-27 20:01:07 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 335ms (Views: 305.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-27 20:01:11 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/luciana/claro/app/views/accounts/index.html.erb:9: syntax error, unexpected ensure, expecting end
+          ensure
+          ^~~~~~
+/home/luciana/claro/app/views/accounts/index.html.erb:11: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/accounts/index.html.erb:9: syntax error, unexpected ensure, expecting end
+app/views/accounts/index.html.erb:11: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for ::1 at 2020-05-27 20:01:33 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 36ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-27 20:01:35 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/luciana/claro/app/views/accounts/index.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting ')'
+...Conta cadastrada com sucesso!"a);@output_buffer.safe_append=...
+...                              ^
+/home/luciana/claro/app/views/accounts/index.html.erb:10: syntax error, unexpected ensure, expecting end
+          ensure
+          ^~~~~~
+/home/luciana/claro/app/views/accounts/index.html.erb:12: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/accounts/index.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/accounts/index.html.erb:10: syntax error, unexpected ensure, expecting end
+app/views/accounts/index.html.erb:12: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for ::1 at 2020-05-27 20:01:50 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 66ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-27 20:01:52 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-27 20:01:53 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2201.7ms)
+Completed 200 OK in 2244ms (Views: 2221.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/" for ::1 at 2020-05-27 20:09:38 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 337ms (Views: 308.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-27 20:09:53 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/luciana/claro/app/views/accounts/index.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting ')'
+...Conta cadastrada com sucesso!'a);@output_buffer.safe_append=...
+...                              ^):
+  
+app/views/accounts/index.html.erb:2: syntax error, unexpected tIDENTIFIER, expecting ')'
+Started GET "/" for ::1 at 2020-05-27 20:16:00 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 333ms (Views: 323.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-27 20:16:02 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-27 20:16:03 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2261.2ms)
+Completed 200 OK in 2306ms (Views: 2282.5ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for ::1 at 2020-05-27 20:16:22 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 27ms (Views: 26.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2020-05-27 20:17:27 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-27 20:19:21 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 20ms (Views: 19.2ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-27 20:19:34 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 49ms (Views: 26.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-27 20:19:42 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 33ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-27 20:20:59 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 313ms (Views: 305.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-27 20:21:00 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2212.7ms)
+Completed 200 OK in 2262ms (Views: 2233.4ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/" for ::1 at 2020-05-27 20:51:32 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 317ms (Views: 287.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-27 20:51:35 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 68ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-27 20:51:37 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2018.0ms)
+Completed 200 OK in 2064ms (Views: 2036.9ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-27 20:54:30 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 28ms (Views: 25.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-27 20:54:47 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 37ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts" for ::1 at 2020-05-27 20:55:12 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W5Ey6bJ/z6EYuQcqJMVtkQeusKvE2nrMaAJ0yp9VII43uqzvkLPY7q8dkcnCherDkgfrakVJBtorRWQyyPHaww==", "account"=>{"number"=>"121404767", "name"=>"TI", "cost_center"=>"01A021", "work_front"=>"ESCRITORIO", "phone"=>"(61) 99503 8080"}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `CollaboratorName' for #<Account:0x00007ff309c4fed8>):
+  
+app/controllers/accounts_controller.rb:15:in `create'
+Started POST "/accounts" for ::1 at 2020-05-27 21:00:02 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W5Ey6bJ/z6EYuQcqJMVtkQeusKvE2nrMaAJ0yp9VII43uqzvkLPY7q8dkcnCherDkgfrakVJBtorRWQyyPHaww==", "account"=>{"number"=>"121404767", "name"=>"TI", "cost_center"=>"01A021", "work_front"=>"ESCRITORIO", "phone"=>"(61) 99503 8080"}, "commit"=>"Criar Conta"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 2.1ms)
+
+
+  
+NoMethodError (undefined method `CollaboratorName' for #<Account:0x00007ff300526340>):
+  
+app/controllers/accounts_controller.rb:16:in `block in create'
+app/controllers/accounts_controller.rb:15:in `create'
+Started POST "/accounts" for ::1 at 2020-05-27 21:00:16 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W5Ey6bJ/z6EYuQcqJMVtkQeusKvE2nrMaAJ0yp9VII43uqzvkLPY7q8dkcnCherDkgfrakVJBtorRWQyyPHaww==", "account"=>{"number"=>"121404767", "name"=>"TI", "cost_center"=>"01A021", "work_front"=>"ESCRITORIO", "phone"=>"(61) 99503 8080"}, "commit"=>"Criar Conta"}
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 1.6ms)
+
+
+  
+NoMethodError (undefined method `save' for nil:NilClass):
+  
+app/controllers/accounts_controller.rb:16:in `block in create'
+app/controllers/accounts_controller.rb:15:in `create'
+Started POST "/accounts" for ::1 at 2020-05-27 21:00:27 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W5Ey6bJ/z6EYuQcqJMVtkQeusKvE2nrMaAJ0yp9VII43uqzvkLPY7q8dkcnCherDkgfrakVJBtorRWQyyPHaww==", "account"=>{"number"=>"121404767", "name"=>"TI", "cost_center"=>"01A021", "work_front"=>"ESCRITORIO", "phone"=>"(61) 99503 8080"}, "commit"=>"Criar Conta"}
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 1.6ms)
+
+
+  
+NoMethodError (undefined method `save' for nil:NilClass):
+  
+app/controllers/accounts_controller.rb:17:in `block in create'
+app/controllers/accounts_controller.rb:15:in `create'
+Started POST "/accounts" for ::1 at 2020-05-27 21:00:31 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W5Ey6bJ/z6EYuQcqJMVtkQeusKvE2nrMaAJ0yp9VII43uqzvkLPY7q8dkcnCherDkgfrakVJBtorRWQyyPHaww==", "account"=>{"number"=>"121404767", "name"=>"TI", "cost_center"=>"01A021", "work_front"=>"ESCRITORIO", "phone"=>"(61) 99503 8080"}, "commit"=>"Criar Conta"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `save' for nil:NilClass):
+  
+app/controllers/accounts_controller.rb:17:in `block in create'
+app/controllers/accounts_controller.rb:15:in `create'
+Started GET "/" for ::1 at 2020-05-27 21:09:51 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 323ms (Views: 296.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-27 21:09:56 -0300
+  
+SyntaxError (/home/luciana/claro/app/controllers/accounts_controller.rb:36: syntax error, unexpected tLABEL
+...ct_to @account, notice: notice: 'Conta editada com sucesso!'...
+...                        ^~~~~~~):
+  
+app/controllers/accounts_controller.rb:36: syntax error, unexpected tLABEL
+Started GET "/accounts" for ::1 at 2020-05-27 21:10:22 -0300
+  
+SyntaxError (/home/luciana/claro/app/controllers/accounts_controller.rb:36: syntax error, unexpected tLABEL
+...ct_to @account, notice: notice: 'Conta editada com sucesso!'...
+...                        ^~~~~~~
+/home/luciana/claro/app/controllers/accounts_controller.rb:67: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/accounts_controller.rb:36: syntax error, unexpected tLABEL
+app/controllers/accounts_controller.rb:67: syntax error, unexpected end, expecting end-of-input
+Started GET "/" for ::1 at 2020-05-27 21:11:09 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 28ms (Views: 25.8ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-27 21:11:12 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 30ms (Views: 22.9ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-27 21:11:13 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2266.7ms)
+Completed 200 OK in 2315ms (Views: 2287.0ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/accounts" for ::1 at 2020-05-27 21:11:43 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LIt5AeSKZJ2IeI4sDXPpw7oXIPwLT6o7UT3isXKTy9YLKXhwco5QoS7OFeZeE6Iwas8bgIO0AZ9NdXARtb34SQ==", "account"=>{"number"=>"121404767", "name"=>"TI", "cost_center"=>"01A021", "work_front"=>"ESCRITORIO", "phone"=>"(61) 99503 8080"}, "commit"=>"Criar Conta"}
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 1.6ms)
+
+
+  
+NoMethodError (undefined method `save' for nil:NilClass):
+  
+app/controllers/accounts_controller.rb:24:in `block in create'
+app/controllers/accounts_controller.rb:22:in `create'
+Started GET "/" for ::1 at 2020-05-27 21:22:59 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 333ms (Views: 325.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-27 21:23:01 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 34ms (Views: 27.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-27 21:23:05 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+Started GET "/accounts/new" for ::1 at 2020-05-27 21:23:06 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (4588.0ms)
+Completed 200 OK in 4758ms (Views: 4740.4ms | ActiveRecord: 1.4ms)
+
+
+  Rendered accounts/new.html.erb within layouts/application (3567.7ms)
+Completed 200 OK in 3774ms (Views: 3668.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/accounts" for ::1 at 2020-05-27 21:23:31 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8k9O+btsSMUj+6PKvd66NBNdm5iTTUTq96OcfpIyrjrV7U+ILWh8+YVNOADuvvHHw4Wg5Bu2707r6w7eVRydpQ==", "account"=>{"number"=>"121404767", "name"=>"TI", "cost_center"=>"01A021", "work_front"=>"ESCRITORIO", "phone"=>"(61) 99503 8080"}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `CollaboratorName' for #<Account:0x00007f46f4fd8440>):
+  
+app/controllers/accounts_controller.rb:24:in `block in create'
+app/controllers/accounts_controller.rb:22:in `create'
+Started GET "/" for ::1 at 2020-05-27 21:29:44 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 326ms (Views: 318.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-27 21:29:47 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 33ms (Views: 26.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-27 21:29:47 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2204.6ms)
+Completed 200 OK in 2245ms (Views: 2225.5ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/accounts" for ::1 at 2020-05-27 21:29:57 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4HLdbYEPn04QKVV2CnhxJJK7tTXvZZv7kel95sRGlVXH0NwcFwurcrafzrxZGDrXQmOOSWeeMF+Noe9GA2imyg==", "account"=>{"number"=>"121404767", "name"=>"TI", "cost_center"=>"01A021", "work_front"=>"ESCRITORIO", "phone"=>"(61) 99503 8080"}, "commit"=>"Salvar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.1ms)
+
+
+  
+NoMethodError (undefined method `CollaboratorName' for #<Account:0x00007f68d5abc968>):
+  
+app/controllers/accounts_controller.rb:24:in `block in create'
+app/controllers/accounts_controller.rb:22:in `create'
+Started GET "/" for ::1 at 2020-05-27 21:34:28 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 308ms (Views: 296.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-27 21:34:30 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 110ms (Views: 99.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-27 21:34:31 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (2170.9ms)
+Completed 200 OK in 2211ms (Views: 2192.4ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/accounts" for ::1 at 2020-05-27 21:34:50 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Hyadv8P0HPXSzEGH/JPniylA7dSpCwbZBT+mt6yRP384hJzOVfAoyXR62k2v86x4+ZjWqCHwrX0ZdzQXa78M4A==", "account"=>{"number"=>"121404767", "name"=>"TI", "cost_center"=>"01A021", "work_front"=>"ESCRITORIO", "phone"=>"(61) 99503 8080"}, "commit"=>"Salvar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 28ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `CollaboratorName' for #<Account:0x00007fcf2806c4e0>):
+  
+app/controllers/accounts_controller.rb:24:in `block in create'
+app/controllers/accounts_controller.rb:22:in `create'
+Started POST "/accounts" for ::1 at 2020-05-27 21:39:51 -0300
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MbFn+OX9V9xXEOBjmGdVgTSOZ6LlcH1zFMUjt3U2z+w7VuZwVviEMb41WJoIRoEkXtiXwoGveOPFAR2inAhcg==", "account"=>{"number"=>"121404767", "name"=>"TI", "cost_center"=>"01A021", "work_front"=>"ESCRITORIO", "phone"=>"(61) 99503 8080"}, "commit"=>"Salvar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 1.2ms)
+
+
+  
+NoMethodError (undefined method `Phone' for #<Account:0x000056153d680058>
+Did you mean?  phone?
+               phone=):
+  
+app/controllers/accounts_controller.rb:24:in `block in create'
+app/controllers/accounts_controller.rb:22:in `create'
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (7.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (8.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateAccounts (20200526135125)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.8ms)[0m  [1m[35mCREATE TABLE "accounts" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "number" varchar DEFAULT '' NOT NULL, "name" varchar DEFAULT '' NOT NULL, "cost_center" varchar DEFAULT '' NOT NULL, "work_front" varchar DEFAULT '' NOT NULL, "phone" varchar DEFAULT '' NOT NULL, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20200526135125"]]
+  [1m[35m (9.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2020-05-28 00:40:34.391194"], ["updated_at", "2020-05-28 00:40:34.391194"]]
+  [1m[35m (8.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/accounts" for ::1 at 2020-05-27 21:40:48 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MbFn+OX9V9xXEOBjmGdVgTSOZ6LlcH1zFMUjt3U2z+w7VuZwVviEMb41WJoIRoEkXtiXwoGveOPFAR2inAhcg==", "account"=>{"number"=>"121404767", "name"=>"TI", "cost_center"=>"01A021", "work_front"=>"ESCRITORIO", "phone"=>"(61) 99503 8080"}, "commit"=>"Salvar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 59ms (ActiveRecord: 1.5ms)
+
+
+  
+NoMethodError (undefined method `Phone' for #<Account:0x000055bb9dcbeb58>
+Did you mean?  phone?
+               phone=):
+  
+app/controllers/accounts_controller.rb:24:in `block in create'
+app/controllers/accounts_controller.rb:22:in `create'
+Started POST "/accounts" for ::1 at 2020-05-27 21:43:38 -0300
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MbFn+OX9V9xXEOBjmGdVgTSOZ6LlcH1zFMUjt3U2z+w7VuZwVviEMb41WJoIRoEkXtiXwoGveOPFAR2inAhcg==", "account"=>{"number"=>"121404767", "name"=>"TI", "cost_center"=>"01A021", "work_front"=>"ESCRITORIO", "phone"=>"(61) 99503 8080"}, "commit"=>"Salvar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 41ms (ActiveRecord: 1.4ms)
+
+
+  
+NoMethodError (undefined method `Phone' for #<Account:0x000055ed3266a3d0>
+Did you mean?  phone?
+               phone=):
+  
+app/controllers/accounts_controller.rb:22:in `create'
+Started POST "/accounts" for ::1 at 2020-05-27 21:52:27 -0300
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3MbFn+OX9V9xXEOBjmGdVgTSOZ6LlcH1zFMUjt3U2z+w7VuZwVviEMb41WJoIRoEkXtiXwoGveOPFAR2inAhcg==", "account"=>{"number"=>"121404767", "name"=>"TI", "cost_center"=>"01A021", "work_front"=>"ESCRITORIO", "phone"=>"(61) 99503 8080"}, "commit"=>"Salvar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 1.2ms)
+
+
+  
+NoMethodError (undefined method `Phone' for #<Account:0x00007f6d80cb8f50>
+Did you mean?  phone?
+               phone=):
+  
+app/controllers/accounts_controller.rb:22:in `create'
