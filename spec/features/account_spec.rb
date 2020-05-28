@@ -16,8 +16,8 @@ feature "Account", type: :feature do
 
 	scenario 'Verifica Formulário de Nova Conta' do
 		visit(new_account_path)
-		click_on('Criar Conta')
-		expect(page).to have_content('Criar Conta')
+		click_on('Nova Conta')
+		expect(page).to have_content('Nova Conta')
 	end
 
 	scenario 'Cadastra uma Conta Válida' do

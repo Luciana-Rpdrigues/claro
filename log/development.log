@@ -1737,3 +1737,25 @@ Did you mean?  phone?
                phone=):
   
 app/controllers/accounts_controller.rb:22:in `create'
+Started GET "/" for ::1 at 2020-05-28 09:50:45 -0300
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 116ms (Views: 112.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts" for ::1 at 2020-05-28 09:50:50 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/accounts/new" for ::1 at 2020-05-28 09:50:51 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (949.9ms)
+Completed 200 OK in 998ms (Views: 958.1ms | ActiveRecord: 3.9ms)
+
+

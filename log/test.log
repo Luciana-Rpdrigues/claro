@@ -9677,3 +9677,915 @@ Processing by ClaroController#index as HTML
   Rendered claro/index.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:10:04 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 141ms (Views: 136.5ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:10:04 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 08:10:04 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 08:10:04 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (875.8ms)
+Completed 200 OK in 882ms (Views: 877.0ms | ActiveRecord: 0.5ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 08:10:05 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"", "name"=>"", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 08:10:05 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.0ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 08:10:05 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"account_number", "name"=>"Marcos Bomdia", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:10:05 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:10:05 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:10:30 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 115ms (Views: 110.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:10:31 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 08:10:31 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 08:10:31 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (685.9ms)
+Completed 200 OK in 692ms (Views: 686.8ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 08:10:31 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:10:31 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:10:31 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:10:34 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 95ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:10:34 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 08:10:34 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 08:10:34 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (686.0ms)
+Completed 200 OK in 692ms (Views: 686.9ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 08:10:34 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:10:35 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:10:35 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:11:05 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 119ms (Views: 116.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:11:05 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 08:11:05 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 08:11:05 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (698.0ms)
+Completed 200 OK in 704ms (Views: 698.8ms | ActiveRecord: 0.3ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 08:11:06 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"", "name"=>"", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 08:11:06 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:11:06 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:11:06 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:16:52 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 103ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:16:52 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 08:16:52 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 08:16:52 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (695.0ms)
+Completed 200 OK in 701ms (Views: 695.8ms | ActiveRecord: 0.3ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 08:16:53 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"", "name"=>"", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 08:16:53 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:16:53 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:16:53 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:17:34 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 120ms (Views: 116.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:17:34 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 08:17:34 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 08:17:34 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (691.6ms)
+Completed 200 OK in 698ms (Views: 692.4ms | ActiveRecord: 0.3ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 08:17:35 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"", "name"=>"", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 08:17:35 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:17:35 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:17:35 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:18:03 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 109ms (Views: 105.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:18:03 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 08:18:03 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 08:18:03 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (699.4ms)
+Completed 200 OK in 705ms (Views: 700.3ms | ActiveRecord: 0.3ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 08:18:04 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"", "name"=>"", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 08:18:04 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:18:04 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 08:18:04 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:51:38 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 120ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:51:38 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 09:51:38 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 09:51:38 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (688.9ms)
+Completed 200 OK in 695ms (Views: 689.7ms | ActiveRecord: 0.3ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 09:51:39 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"", "name"=>"", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 09:51:39 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:51:39 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:51:39 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:56:06 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 104ms (Views: 99.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:56:06 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 09:56:06 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 09:56:06 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (699.1ms)
+Completed 200 OK in 705ms (Views: 699.9ms | ActiveRecord: 0.3ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 09:56:07 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"", "name"=>"", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 09:56:07 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:56:07 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:56:07 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:56:23 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 82ms (Views: 79.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:56:23 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 09:56:24 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 09:56:24 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (686.5ms)
+Completed 200 OK in 692ms (Views: 687.3ms | ActiveRecord: 0.3ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 09:56:24 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"", "name"=>"", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 09:56:24 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 09:56:24 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"account_number", "name"=>"Arthur Miguel Carvalheira", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:56:24 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:56:24 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:57:34 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 110ms (Views: 105.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:57:34 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 09:57:34 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 09:57:34 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (687.6ms)
+Completed 200 OK in 704ms (Views: 699.0ms | ActiveRecord: 0.3ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 09:57:35 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"", "name"=>"", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 09:57:35 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 09:57:35 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"account_number", "name"=>"Luiza Moniz", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:57:35 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:57:35 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:57:50 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 81ms (Views: 77.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:57:50 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 09:57:50 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 09:57:50 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (689.8ms)
+Completed 200 OK in 696ms (Views: 690.7ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 09:57:51 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:57:51 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 09:57:51 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:00:03 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 118ms (Views: 113.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:00:03 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 10:00:03 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 10:00:03 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (693.6ms)
+Completed 200 OK in 699ms (Views: 694.4ms | ActiveRecord: 0.3ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 10:00:04 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"", "name"=>"", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 10:00:04 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 10:00:04 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"account_number", "name"=>"João Lucas Soares Filho", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:00:04 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:00:04 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:00:41 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 99ms (Views: 94.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:00:41 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 10:00:41 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 10:00:41 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (685.5ms)
+Completed 200 OK in 691ms (Views: 686.4ms | ActiveRecord: 0.3ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 10:00:41 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 10:00:41 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"account_number", "name"=>"Célia Martins Neto", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 5ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:00:41 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:00:41 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:00:57 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 122ms (Views: 118.4ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:00:57 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 10:00:57 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 10:00:57 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (697.9ms)
+Completed 200 OK in 704ms (Views: 698.7ms | ActiveRecord: 0.3ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 10:00:58 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"", "name"=>"", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Nova Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 10:00:58 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 10:00:58 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"account_number", "name"=>"Norberto Gonçalves", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:00:58 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:00:58 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:03:14 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 101ms (Views: 96.6ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:03:14 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+Started GET "/accounts" for 127.0.0.1 at 2020-05-28 10:03:14 -0300
+Processing by AccountsController#index as HTML
+  Rendering accounts/index.html.erb within layouts/application
+  Rendered accounts/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 10:03:14 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (697.0ms)
+Completed 200 OK in 703ms (Views: 697.8ms | ActiveRecord: 0.3ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 10:03:15 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"", "name"=>"", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Nova Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/accounts/new" for 127.0.0.1 at 2020-05-28 10:03:15 -0300
+Processing by AccountsController#new as HTML
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+Started POST "/accounts" for 127.0.0.1 at 2020-05-28 10:03:15 -0300
+Processing by AccountsController#create as HTML
+  Parameters: {"utf8"=>"✓", "account"=>{"number"=>"account_number", "name"=>"Dra. Núbia Quarteira", "cost_center"=>"", "work_front"=>"", "phone"=>""}, "commit"=>"Criar Conta"}
+  [1m[35m (0.1ms)[0m  [1m[35mSAVEPOINT active_record_1[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK TO SAVEPOINT active_record_1[0m
+  Rendering accounts/new.html.erb within layouts/application
+  Rendered accounts/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 4ms (Views: 1.8ms | ActiveRecord: 0.1ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:03:15 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+Started GET "/" for 127.0.0.1 at 2020-05-28 10:03:15 -0300
+Processing by ClaroController#index as HTML
+  Rendering claro/index.html.erb within layouts/application
+  Rendered claro/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
